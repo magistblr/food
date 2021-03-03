@@ -1,0 +1,141 @@
+
+@media (max-width: 970px) {
+    .promo {
+        padding: 10px;
+        &__header {
+            font-size: 35px;
+        }
+        &__sub-header {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 360px
+        }
+    }
+    .advantage {
+        &__main {
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 899px) {
+    .advantage {
+        &__content {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .header {
+        &__official {
+            font-size: 10px;
+        }
+        span {
+            font-size: 14px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 520px) {
+    .header {
+        flex-wrap: wrap;
+        align-items: start;
+        span {
+            font-size: 18px;
+        }
+        &__official {
+            order: 1;
+            margin-top: 10px;
+            flex-basis: 150%;
+            font-size: 12px;
+        }
+        &__contacts {
+            font-size: 18px;
+            align-self: center;
+        }
+    }
+}
+
+@media (max-width: 456px) {
+    .promo {
+        h1 {
+            font-size: 28px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+        &__icons {
+            width: 335px;
+        }
+    }
+    .advantage {
+        h2 {
+            font-size: 27px;
+        }
+    }
+    .header {
+        &__phone {
+            font-size: 14px;
+        }
+        &__logo {
+            width: 60%;
+        }
+        &__contacts {
+            width: 40%;
+        }
+    .button {
+        width: 135px;
+    }
+    }
+}
+
+@media (max-width: 375px) {
+    .promo {
+        h1 {
+            font-size: 23px;
+        }
+        h2 {
+            font-size: 13px;
+        }
+        &__icons {
+            width: 290px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        .button {
+            width: 111px;
+            font-size: 10px;
+            &_main {
+            width: 283px;
+            font-size: 16px;
+            }
+        }
+    }
+    .header {
+        align-content: start;
+        &__phone {
+            font-size: 12px;
+        }
+        &__official {
+            margin-top: 10px;
+            flex-basis: 150%;
+        }
+    }
+    .advantage {
+        h2 {
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 319px) {
+    .promo {
+        width: 100%;
+    }
+}
