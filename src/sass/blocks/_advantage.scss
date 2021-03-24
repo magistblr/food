@@ -1,12 +1,12 @@
 .advantage {
     min-height: 470px;
-    padding: 70px 0 78px 0;
+    padding: 70px 0 38px 0;
     background-color: #f6f6f6;
-
-    &__label {
-        @include heading
+    &__wrapper {
+        display: block;
+        margin: 0 auto;
+        max-width: 950px;
     }
-
     &__content {
         display: flex;
         margin-top: 65px;
@@ -23,6 +23,7 @@
         }
         h3 {
             display: block;
+            margin-top: 38px;
             text-align: center;
             font-size: 18px;
             line-height: 1.2;
@@ -39,5 +40,9 @@
             width: 260px;
             min-height: 80px;
             text-align: center;
-}
+        }
+        &__text {
+            display: block;
+            margin-top: 26px;
+        }
 }
