@@ -1,5 +1,6 @@
 @import 'base/variables';
 @import 'base/mixins';
+@import 'base/animations';
 
 
 * {
@@ -24,3 +25,5 @@
 @import 'blocks/feeds';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
+@import 'blocks/map';
